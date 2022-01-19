@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+body{
+    font-family:'Poppins';
+}
+
+header{
+    padding:2rem 5rem 0 5rem;
+}
+
+.asset-area{
+    display: inline;
+    padding-left: 2rem;
+}
+
+.asset{
+    display:inline;
+    margin-left: 1rem;
+    cursor: pointer;
+    vertical-align:middle;
+    color:gray;
+    font-weight: bolder;
+}
+
+.logo{
+    cursor: pointer;
+    width: 8%;
+    vertical-align: middle;
+}
+
+.login-area{
+    display:inline;
+    float:right;
+}
+
+.login-button{
+    display:inline;
+    margin-right: 1rem;
+    cursor: pointer;
+    color:gray;
+    font-weight: bolder;
+}
+
+.cyan-button{
+    vertical-align:middle;
+    background-color: hsl(180, 66%, 49%);
+    border: none;
+    border-radius: 2.5rem;
+    padding: 0.7rem 1.5rem 0.7rem 1.5rem;
+    color:white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.presentation{
+    display:flex;
+    flex-flow: row;
+    width:100%;
+}
+
+.image-area{
+    margin: 5rem 0 0 0;
+    display:inline;
+    float:right;
+    width:30%;
+}
+
+.working-area{
+    padding:6rem 5rem 0 5rem;
+    width:50%
+}
+
+.working-ilu{
+    height: auto;
+    width: 40rem;
+}
+
+.big-text{
+    line-height: 6rem;
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.small-text{
+    font-weight: bolder;
+    color: gray;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.shorten-area{
+    padding:6rem 5rem 0 5rem;
+}
+
+.shorten-box{
+    padding: 2rem;
+    background-color: hsl(257, 27%, 26%);
+    background-image: url("images/bg-shorten-desktop.svg");
+    border-radius: 1rem;
+    height:5rem;
+    display: flex;
+    align-items: center;
+}
+
+.shorten-button{
+    float: right;
+    margin-left:10rem;
+    width: 15%;
+    border-radius: 0.5rem;
+}
+
+.shorten-input{
+    float:left;
+    font-size: 1.5rem;
+    color: gray;
+    width:100%;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+}
+
+form{
+    display: inline;
+}
+
